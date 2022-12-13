@@ -1,0 +1,410 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+nav a {
+  color: white;
+  color: rgb(79, 252, 168);
+}
+
+.secondmenu {
+  --color: #560bad;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+  text-align: center;
+  text-decoration: none;
+}
+
+/* .secondmenu:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+} */
+
+/* .secondmenu:hover {
+  color: #fff;
+}
+
+.secondmenu:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.secondmenu:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.secondmenu:active:before {
+  background: #3a0ca3;
+  transition: background 0s;
+} */
+.secondnavback {
+  background-color: transparent;
+  padding: 10px 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.section1 {
+  background-color: #bffff0;
+  height: 700px;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  display: flex;
+}
+
+.section1att {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 150px;
+  color: black;
+  text-shadow: 0px 0px 10px black;
+  scale: 1.2;
+  margin-bottom: 50px;
+}
+
+.section1 ul li {
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: x-large;
+  color: rgb(11, 10, 10);
+  font-weight: 700;
+  scale: 1.03;
+}
+
+.section1btns {
+  font-size: x-large;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  color: white;
+  font-weight: 700;
+  gap: 50px;
+}
+
+/* .section1 button {
+  color: white;
+  background-color: blue;
+  border: none;
+  margin-left: 20px;
+  padding: 10px 25px;
+  font-weight: 1000;
+  font-size: medium;
+  border-radius: 5px;
+} */
+
+.btn {
+  padding: 0.9em 1.6em;
+  border: none;
+  outline: none;
+  color: black;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+.btn::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(253, 136, 136);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+/* glow */
+/* .btn::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #002bff,
+    #ff00c8,
+    #002bff,
+    #ff0000,
+    #002bff,
+    #ff00c8,
+    #002bff
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0; 
+}*/
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* hover */
+.btn:hover::before {
+  opacity: 1;
+}
+
+.btn:active:after {
+  background: transparent;
+}
+
+.btn:active {
+  color: #000;
+  font-weight: bold;
+}
+
+.sectoion2 {
+  height: 50px;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 10px;
+  padding-left: 100px;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.sectoion2 img {
+  margin-top: 20px;
+  width: 60px;
+  height: 30px;
+  border-radius: 2px;
+  margin-left: 60px;
+}
+
+hr {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.joblist {
+  background-color: #f0ffc2;
+  padding: 100px 85px;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.joblist h2 {
+  padding-bottom: 20px;
+}
+.joblist div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  color: white;
+  background-color: black;
+  height: 50px;
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.list p {
+  padding: 10px;
+}
+
+.list img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.trending {
+  background-color: #ffe4c0;
+  position: relative;
+  right: 0px;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin: 0px 8px;
+}
+
+.trendingitems {
+  background-color: lightblue;
+  color: black;
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.trendingitems img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.trendingitems :nth-child(1) {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.trendingitems p {
+  margin-top: 15px;
+}
+
+.trendingitems :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+
+.trending h2 {
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: lightblue;
+}
+
+.profile {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+}
+
+.fbcontainer {
+  margin-left: 100px;
+  color: lightblue;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 100px;
+  background-color: FFBBBB;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.fbitems {
+  width: 200px;
+  line-height: 20px;
+}
+
+.fbitems1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.fbitems1 p {
+  color: rgb(216, 100, 100);
+}
+
+.fb {
+  display: flex;
+  gap: 150px;
+}
+
+.TPJ {
+  background-color: lightblue;
+  color: white;
+  padding: 50px;
+}
+
+.total {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+
+.TPJ h2 {
+  margin: 0px 100px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.TPJprofile {
+  display: flex;
+  gap: 30px;
+  margin: 25px 5px;
+}
+
+.TPJprofile h4 {
+  margin-top: 5px;
+}
+
+.TPJsecond {
+  margin-left: 10px;
+}
+
+.nxttol {
+  margin-top: 50px;
+  background-color: aqua;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+nav a:hover {
+  color: black;
+  transition: all;
+}
+
+.footertop h4 {
+  font-size: x-large;
+  margin-bottom: 20px;
+}

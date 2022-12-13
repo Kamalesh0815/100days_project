@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/assets/css/Signin.css">
+</head>
+
+<body style="background-color: #bffff0;">
+    <div
+        style="margin-left: 20px;background-color: black;margin-right: 50px;margin-bottom: 50px; width: 100px;height: 100px;margin-top: 20px;">
+        <img width="100px" height="100px" src="/assets/Images/Logo.png">
+    </div>
+
+    <section class="sec1">
+
+        <div>
+            <p style="font-size: 50px;color: #8f5849;">Welcome to Our <br>business platform</p>
+
+            <form name="Signin" id="sform" action="Bio.html">
+                <input type=" text" name="email" placeholder="Email Id"
+                    style="padding: 15px;width: 350px;font-size: 15px;" required>
+
+                <input type="password" placeholder="password" style="padding: 15px;width: 350px;font-size: 15px;"
+                    required>
+
+                <p style="margin-top: 15px;color:#3e4c8a ;">
+                    Forgot password?
+                </p>
+
+
+                <button class="singin2" type="submit">Sign
+                    in as worker</button>
+
+            </form>
+            <form action="OwnerBio.html">
+                <button style="margin-top: -20px;" class="singin2" type="submit">Sign in as owner</button>
+
+            </form>
+        </div>
+
+
+        <div>
+            <img class="sec1img" alt="Welcome to your professional community"
+                src="https://static-exp1.licdn.com/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4">
+        </div>
+    </section>
+
+
+    <!-- <script>
+        function signindirect() {
+            let x = document.forms["Signin"]["eamil"].value;
+            alert("test")
+            if (x == "Owner@gmail.com") {
+
+                document.getElementById("sform").action = "https://www.w3schools.com/jsref/prop_form_action.asp";
+            }
+
+            else {
+                document.getElementById("sForm").action = "/action_page.php";
+            }
+        }
+
+        //how to visit in javascript?
+
+
+
+
+
+    </script> -->
+</body>
+
+</html>
