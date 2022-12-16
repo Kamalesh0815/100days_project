@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+
+
+section {
+  background: paleturquoise;
+  height: 800px;
+  width: 1400px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  display: flex;
+}
+
+section img {
+  margin-top: 50px;
+}
+
+section div {
+  background-color: white;
+  width: 300px;
+  height: 700px;
+  margin: auto;
+  margin-left: 0px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    #c2bde0,
+    rgb(156, 89, 228)
+  );
+}
+
+section div h1 {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section div input {
+  padding: 10px 100px 0px 0px;
+  /* margin-top: 5px; */
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid gray;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+section div label {
+  margin-left: 15px;
+  padding-top: 100px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.reg {
+  margin-top: 20px;
+  padding: 15px 85px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  background-color: #655de4;
+  border: none;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cancel {
+  padding: 15px 91px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  background-color: red;
+  border: none;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  font-size: medium;
+  border-radius: 5px;
+}
+
+.signin {
+  padding: 16px 93px;
+  margin-left: 30px;
+  background-color: #575a89;
+  border: none;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  font-size: medium;
+  border-radius: 5px;
+}
+
+section div:hover {
+  box-shadow: 0px 0px 20px white;
+}
+
+.signin:hover {
+  box-shadow: 0px 0px 10px black;
+}
+
+.reg:hover {
+  box-shadow: 0px 0px 10px black;
+}
+
+.cancel:hover {
+  box-shadow: 0px 0px 10px black;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+

@@ -6,55 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <style>
-        button {
-            padding: 20px 40px;
-            background-color: green;
-            border-radius: 5px;
-            border: none;
-            color: white;
-        }
-
-        button:hover {
-            opacity: 0.5;
-            transition: 0.2s;
-        }
-    </style>
+    <link rel="stylesheet" href="../assets/css/profile.css">
 </head>
 
-<body style="margin-left: auto;margin-right: auto;max-width: 400px;">
+<body>
     <section>
-        <img src="../assets/Images/Johnny_Depp_2020.jpg" style="width: 300px;height: 400px;border-radius: 10px;">
-        <p style="font-size: larger;">Hi sir/mam, This is kamalesh. I am a Freelancer.<br>I do all tech works like
-            #webdev
-            #backend<br> #frontend #ruby
-            #python
-            #java.Education Given<br> when they login. and other details about the worker.</p>
-
         <div>
-            <h4>UPI Id of the worker</h4>
-        </div>
-        <div style="margin-left: 20px;">
-            <a href="Ownerhome.html"> <button onclick="approve()">Approved</button></a>
-            <a href="Ownerhome.html"> <button onclick="reject()" style="background-color: red;">Reject</button></a>
-        </div>
-    </section>
+
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Profile</title>
+                <link rel="stylesheet" href="../assets/css/profile.css">
+            </head>
+
+            <body>
+                <section>
+                    <div class="fullprofile">
+                        <div>
+                            <div class="blue">
+
+                            </div>
+                            <div class="white">
+
+                            </div>
+
+                            <div class="profile">
+                                <div>
+                                    <img src="../assets/Images/avatar (5).svg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second_div_profile">
+                            <p class="second_div_profile_p1">HELLO EVERYONE, I am</p>
+                            <h2>KAMALESH</h2>
+
+                            <p class="second_div_profile_2rdp">JUNIOR UI/UX DEVELOPER</p>
+
+                            <P class="second_div_profile_3rdp">I have completed by B.E(Tech).Now I am <br>working at on
+                                top IT.
+                                I completed my works on <br>time with expected output.</P>
+                            <div class="top_icons">
+                                <div class="icons"> <img src="../assets/Images/phone.svg" alt="">
+                                    <p>+919876543210</p>
+                                </div>
+                                <div class="icons">
+                                    <img src="../assets/Images/linkedin (1).svg" alt="">
+                                    <p>Linkedin</p>
+                                </div>
+                                <div class="icons">
+                                    <img src="../assets/Images/instagram-logo.svg" alt="">
+                                    <p>Instagram</p>
+                                </div>
+                                <div class="icons">
+                                    <img src="../assets/Images/gmail (1).svg">
+                                    <p>Gmail</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <script>
+                    function approve() {
+                        alert("Request approved");
+                    }
 
 
-    <script>
-        function approve() {
-            alert("Request approved");
-        }
-
-
-        function reject() {
-            alert("Request Rejected");
-        }
-    </script>
-
-
-</body>
-
-
+                    function reject() {
+                        alert("Request Rejected");
+                    }
+                </script>
+            </body>
 
 </html>

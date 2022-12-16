@@ -9,27 +9,34 @@
     <link rel="stylesheet" href="../assets/css/Bio.css">
 </head>
 
-<body style="background-color: rgb(206, 245, 245);text-align: center;margin-top: 100px;">
+<body>
     <section>
-        <div>
-            <h1> Bio Data </h1>
+        <div class="profile">
+            <img src="../assets/Images/avatar.svg" />
         </div>
 
-        <div>
-            <form style="margin-top: 50px;" action="Workerhome.html">
-                <input class="items" type="text" placeholder="First Name"><br>
-                <input class="items" type="text" placeholder="Last Name"><br>
-                <label class="items" id="dob" style="padding-left: 15px;">DOB</label>
-                <input style="padding-left: 0px;" class="items" type="date" placeholder="Date Of birth"><br>
-                <input class="items" type="text" placeholder="Address"><br>
-                <input class="items" type="text" placeholder="Type of works"><br>
-                <input class="items" type="text" placeholder="Education"><br>
-                <button class="items" onclick="document.location.href='Workerhome.html'" type="button">Submit
-                </button>
+        <div class="details">
+            <form>
+                <input type="text" placeholder="First Name"><br>
+                <input type="text" placeholder="Last Name"><br>
+                <label id="dob">DOB</label>
+                <input type="date" placeholder="Date Of birth"><br>
+                <input type="text" placeholder="Address"><br>
+                <input type="text" placeholder="Type of works"><br>
+                <input type="text" placeholder="Organization"><br>
+                <input type="text" placeholder="Aadhar number"><br>
+                <button type="submit"><a href="Workerhome.html">Submit </a></button>
+                <button type="reset"><a href="Register.html">Cancel </a></button>
+
 
             </form>
         </div>
+        <div class="Experience">
+
+        </div>
     </section>
 </body>
+
+</html>
 
 </html>

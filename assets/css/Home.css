@@ -8,11 +8,14 @@ a {
   cursor: pointer;
 }
 
-nav a {
+.a {
   color: white;
   color: rgb(79, 252, 168);
+  height: 20px;
 }
-
+body {
+  background-color: #000;
+}
 .secondmenu {
   --color: #560bad;
   font-family: inherit;
@@ -34,6 +37,14 @@ nav a {
   text-decoration: none;
 }
 
+header {
+  display: flex;
+  gap: 30px;
+  max-width: 1500px;
+  background-color: #a19efeb0;
+  height: 100px;
+  margin-bottom: 20px;
+}
 /* .secondmenu:before {
   content: "";
   position: absolute;
@@ -213,6 +224,7 @@ nav a {
   padding-left: 100px;
   justify-content: space-evenly;
   padding-bottom: 20px;
+  color: white;
 }
 
 .sectoion2 img {
@@ -230,12 +242,13 @@ hr {
 }
 
 .joblist {
-  background-color: #f0ffc2;
+  background-color: #b1b2ff;
   padding: 100px 85px;
-  width: 1300px;
+  width: 1250px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .joblist h2 {
@@ -251,7 +264,7 @@ hr {
   background-color: black;
   height: 50px;
   width: 300px;
-  border-radius: 20px;
+  border-radius: 5px;
   margin-top: 20px;
 }
 
@@ -264,15 +277,17 @@ hr {
   height: 40px;
   border-radius: 50%;
   padding-top: 5px;
+  margin-right: 10px;
 }
 
 .trending {
-  background-color: #ffe4c0;
+  width: 1390px;
+  background-color: #aac4ff;
   position: relative;
   right: 0px;
   padding-top: 30px;
   padding-left: 30px;
-  margin: 0px 8px;
+  margin: 0px auto;
 }
 
 .trendingitems {
@@ -312,13 +327,14 @@ hr {
   flex-wrap: wrap;
   gap: 40px;
   padding-bottom: 50px;
+  margin-left: 100px;
 }
 
 .trending h2 {
   padding-bottom: 20px;
   margin-top: 50px;
   margin-bottom: 40px;
-  color: lightblue;
+  color: black;
 }
 
 .profile {
@@ -329,7 +345,7 @@ hr {
 
 .fbcontainer {
   margin-left: 100px;
-  color: lightblue;
+  color: black;
   display: grid;
   grid-template-columns: 200px 200px;
   gap: 100px;
@@ -342,6 +358,11 @@ hr {
 .fbitems {
   width: 200px;
   line-height: 20px;
+  background-color: white;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.155);
 }
 
 .fbitems1 {
@@ -352,18 +373,32 @@ hr {
 }
 
 .fbitems1 p {
-  color: rgb(216, 100, 100);
+  color: blue;
+  font-weight: 1000;
 }
 
 .fb {
   display: flex;
-  gap: 150px;
+  gap: 50px;
+  background-color: #d2daff;
+  margin-top: -110px;
+  width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
 }
 
 .TPJ {
-  background-color: lightblue;
-  color: white;
+  /* background-color: #eef1ff; */
   padding: 50px;
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-image: url("../Images/business-investor-gaining-profit-from-investment.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 0.5;
 }
 
 .total {
@@ -394,17 +429,41 @@ hr {
 
 .nxttol {
   margin-top: 50px;
-  background-color: aqua;
+  background-color: rgb(221, 236, 236);
   border-radius: 5px;
   padding-bottom: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 6, 13, 0.135);
 }
 
-nav a:hover {
+.a:hover {
   color: black;
-  transition: all;
+  transition: 0.5s;
 }
 
 .footertop h4 {
   font-size: x-large;
   margin-bottom: 20px;
+  color: white;
+}
+
+.secondmenu:hover {
+  color: white;
+  background-color: #560bad;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 10px black;
+}
+
+.section1btns p {
+  color: blue;
+}
+
+.footertop {
+  color: gold;
+  color: white;
+}
+
+footer {
+  background-color: black;
 }

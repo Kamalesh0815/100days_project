@@ -1,132 +1,113 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
-    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-weight: 200;
-}
-
-.logo {
-  width: 135px;
-  height: 33px;
-}
-
-header {
-  max-width: 1100px;
-  margin: 0px auto;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.nav1 {
-  display: flex;
-  gap: 35px;
-}
-
-icon {
-  padding: 15px;
-}
-
-.navbtn {
-  padding-top: 10px;
-}
-
-.singin {
-  border: 1.5px solid #3480cc;
-  color: #2578c9;
-  border-radius: 30px;
-  background-color: #bffff0;
-  padding: 15px 30px;
-}
-
-.nav2 {
-  display: flex;
-}
-
-nav {
-  display: flex;
 }
 
 section {
-  margin: 30px 0px;
-  padding-left: 200px;
+  background-color: black;
+  width: 1480px;
+  height: 900px;
+  display: flex;
+  color: white;
 }
 
-form {
-  margin-top: 30px;
+section img {
+  width: 800px;
+  height: 860px;
+  margin-left: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+section :nth-child(2) {
+  width: 500px;
+}
+
+.signin {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-left: -15px;
+}
+
+.signin form {
+  width: 200px;
+  margin-left: 100px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
-.singin2 {
-  width: 385px;
-  border-radius: 30px;
-  padding: 15px 0px;
-  font-size: 20px;
-  border: none;
-  color: white;
-  background-color: #2977c9;
-  margin-top: 20px;
-}
-
-.line {
-  display: flex;
-}
-
-.sec1img {
-  width: 800px;
-  height: 550px;
-}
-
-.sec1 {
-  display: flex;
-}
-
-.sec2btns {
-  background-color: white;
-  font-size: 20px;
-  padding: 20px 25px;
-  border-radius: 35px;
-  margin-right: 3px;
-  margin-top: 10px;
-  border: 1px solid #6e6e6d;
-  color: #3d3d47;
-}
-
-.sec3 {
-  display: flex;
-  gap: 100px;
-  background-color: #f1ece5;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  align-items: center;
-}
-
-.sec3btn {
-  padding: 15px 20px;
-  background-color: transparent;
-  border-radius: 40px;
-  font-size: 20px;
-  color: #1567c2;
-  border: 1px solid #1567c2;
-}
-
-.npbtn {
-  background-color: transparent;
-  border: none;
-  padding: 20px;
-}
-
-.video {
-  position: absolute;
-  top: 200px;
-  left: -380px;
-}
-
-video {
+.signin div {
+  background-color: blueviolet;
+  width: 400px;
+  height: 800px;
+  margin-left: 60px;
+  margin-top: 30px;
   border-radius: 10px;
+}
+
+.signin h1 {
+  padding-top: 20px;
+  text-shadow: 0px 0px 15px gold;
+}
+
+.signin h3 {
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+form input {
+  padding: 10px 20px 0px 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid wheat;
+}
+
+form input::placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+form label {
+  font-size: larger;
+}
+
+.btn1 {
+  margin-top: 50px;
+}
+
+button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn2 {
+  background-color: red;
+}
+
+form p {
+  text-align: center;
+}
+
+.btn3,
+.btn4 {
+  background-color: aquamarine;
+}
+
+button:hover {
+  width: 110%;
+  transition: 5ms;
+  margin-left: -10px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }

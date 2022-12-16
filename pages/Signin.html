@@ -6,71 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
-    <link rel="stylesheet" href="../assets/css/Signin.css">
+    <link rel="stylesheet" href="../assets/css/SignIn.css">
 </head>
 
-<body style="background-color: #bffff0;">
-    <div
-        style="margin-left: 20px;background-color: black;margin-right: 50px;margin-bottom: 50px; width: 100px;height: 100px;margin-top: 20px;">
-        <img width="100px" height="100px" src="../assets/Images/Logo.png">
-    </div>
-
-    <section class="sec1">
-
+<body>
+    <section>
         <div>
-            <p style="font-size: 50px;color: #8f5849;">Welcome to Our <br>business platform</p>
-
-            <form name="Signin" id="sform" action="Bio.html">
-                <input type=" text" name="email" placeholder="Email Id"
-                    style="padding: 15px;width: 350px;font-size: 15px;" required>
-
-                <input type="password" placeholder="password" style="padding: 15px;width: 350px;font-size: 15px;"
-                    required>
-
-                <p style="margin-top: 15px;color:#3e4c8a ;">
-                    Forgot password?
-                </p>
-
-
-                <button class="singin2" type="submit">Sign
-                    in as worker</button>
-
-            </form>
-            <form action="OwnerBio.html">
-                <button style="margin-top: -20px;" class="singin2" type="submit">Sign in as owner</button>
-
-            </form>
+            <img src="../assets/Images/signin_Background.webp" />
         </div>
+        <div class="signin">
+            <div>
+                <marquee scrollamount="10" behavior="alternate">
+                    <h1>Welcome Back</h1>
+                </marquee>
+                <h3>Sign In</h3>
+                <form>
+                    <label class="tag">Username</label><br>
+                    <input type="text" placeholder="Enter Username" /><br>
+
+                    <label>Password</label><br>
+                    <input type="text" placeholder="Enter Password" /><br>
+
+                    <button class="btn1"><a href="Workerhome.html">Sign In</a></button><br>
+                    <button class="btn2"><a href="../index.html">Cancel</a></button><br>
+                    <p>Or</p><br>
+                    <button class="btn3"><a>Sign In with Google</a></button><br>
+                    <button class="btn4"><a>Sign In with Facebook</a></button><br>
 
 
-        <div>
-            <img class="sec1img" alt="Welcome to your professional community"
-                src="https://static-exp1.licdn.com/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4">
+
+
+
+
+
+
+
+
+
+                </form>
+            </div>
         </div>
     </section>
-
-
-    <!-- <script>
-        function signindirect() {
-            let x = document.forms["Signin"]["eamil"].value;
-            alert("test")
-            if (x == "Owner@gmail.com") {
-
-                document.getElementById("sform").action = "https://www.w3schools.com/jsref/prop_form_action.asp";
-            }
-
-            else {
-                document.getElementById("sForm").action = "/action_page.php";
-            }
-        }
-
-        //how to visit in javascript?
-
-
-
-
-
-    </script> -->
 </body>
 
 </html>
